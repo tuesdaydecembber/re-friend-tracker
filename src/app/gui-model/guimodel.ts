@@ -304,7 +304,7 @@ export class GuiModel {
                             "icon": "fa-dice-d20",
                             "color": "pink",
                             "page": "activitypage",
-                        },
+                        }
                     ]
                 },
                 {
