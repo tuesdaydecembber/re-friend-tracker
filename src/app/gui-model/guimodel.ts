@@ -29,7 +29,7 @@ export class GuiModel {
                                 },
                                 {
                                   "id": "date",
-                                  "type": "text",
+                                  "type": "date",
                                   "name": "Date",
                                   "width": 2,
                                   "required": true
@@ -96,7 +96,7 @@ export class GuiModel {
                             "width": 2
                         },
                         {
-                            "id": "birthdate",
+                            "id": "birth",
                             "type": "date",
                             "name": "Birthday",
                             "width": 2
@@ -201,7 +201,7 @@ export class GuiModel {
                         },
                         {
                             "id": "creationdate",
-                            "type": "text",
+                            "type": "date",
                             "name": "CreationDate",
                             "width": 2,
                             "required": true
@@ -242,14 +242,14 @@ export class GuiModel {
                             "required": true
                         },
                         {
-                            "id": "creationdate",
-                            "type": "text",
-                            "name": "CreationDate",
+                            "id": "date",
+                            "type": "date",
+                            "name": "Date",
                             "width": 2,
                             "required": true
                         },
                         {
-                            "id": "creationdate",
+                            "id": "comment",
                             "type": "text",
                             "name": "Comments",
                             "width": 2,
@@ -305,17 +305,6 @@ export class GuiModel {
                             "color": "pink",
                             "page": "activitypage",
                         },
-                        {
-                            "type": "list",
-                            "icon": "fa-users",
-                            "color": "emerald",
-                            "search": true,
-                            "url": "/group",
-                            "form": {
-                                "form": "GroupForm"
-                            }
-                        },
-
                     ]
                 },
                 {
